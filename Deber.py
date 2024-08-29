@@ -16,7 +16,8 @@ def registrar_usuario():
     if usuario in usuarios:
         print("Ya esta registrado")  
     else:
-        usuarios.append(usuario) 
+        usuarios.append(usuario)
+        saldos.append(0)
         print (f"Usuario {usuario} registrado con exito") 
 
 def realizar_deposito():
